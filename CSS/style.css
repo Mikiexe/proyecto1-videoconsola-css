@@ -6,3 +6,26 @@ body .row-left-header {
     outline: auto;
     display: inline-block;
 }
+
+
+.tableroGeneral {
+    display: flex;
+}
+
+.casilla-par {
+    margin: 2px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+}
+
+.casilla-impar {
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
